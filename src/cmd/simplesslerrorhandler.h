@@ -18,6 +18,10 @@
 class QSslError;
 class QSslCertificate;
 
+/*!
+ * \brief The SimpleSslErrorHandler class
+ * \ingroup cmd
+ */
 class SimpleSslErrorHandler : public OCC::AbstractSslErrorHandler {
 public:
     bool handleErrors(QList<QSslError> errors, const QSslConfiguration &conf, QList<QSslCertificate> *certs, OCC::AccountPtr) Q_DECL_OVERRIDE;

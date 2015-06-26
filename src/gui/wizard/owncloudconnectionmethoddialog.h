@@ -23,6 +23,10 @@ namespace Ui {
 class OwncloudConnectionMethodDialog;
 }
 
+/*!
+ * \brief The OwncloudConnectionMethodDialog class
+ * \ingroup gui
+ */
 class OwncloudConnectionMethodDialog : public QDialog
 {
     Q_OBJECT
